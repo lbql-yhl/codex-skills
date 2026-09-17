@@ -22,6 +22,7 @@
 | `weekly-automation-report` | refactored | 自动化周报、趋势和风险汇总 |
 | `record-exporter` | refactored | 结构化记录的分组导出和只读归档 |
 | `github-project-memory` | portable | 扫描 GitHub 项目与 SKILL.md，并保存可查询的本地记忆 |
+| `finance-quant-backtesting` | personal | 个人量化数据、策略回测、因子分析和风险评估 |
 
 完整清单见 [`manifest.json`](manifest.json)。
 

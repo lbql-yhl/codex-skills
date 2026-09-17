@@ -89,6 +89,14 @@
       "status": "portable",
       "source": "local",
       "path": "skills/github-project-memory"
+    },
+    {
+      "name": "finance-quant-backtesting",
+      "display_name": "Finance Quant Backtesting",
+      "category": "finance-research",
+      "status": "personal",
+      "source": "local",
+      "path": "skills/finance-quant-backtesting"
     }
   ]
 }
