@@ -22,6 +22,7 @@
 | `weekly-automation-report` | refactored | 自动化周报、趋势和风险汇总 |
 | `record-exporter` | refactored | 结构化记录的分组导出和只读归档 |
 | `github-project-memory` | portable | 扫描 GitHub 项目与 SKILL.md，并保存可查询的本地记忆 |
+| `knowledge-document-search` | portable | 基于知识库文档检索回答、来源引用、用户反馈记忆和低评分持续学习 |
 | `frontend-design` | portable | 有辨识度的前端视觉方向、排版、布局和设计方案 |
 | `tailwind-design-system` | portable | Tailwind CSS v4 设计令牌、组件变体和响应式设计系统 |
 | `web-accessibility` | portable | 原生语义、键盘焦点、表单、组件交互和可验证的无障碍工作流 |

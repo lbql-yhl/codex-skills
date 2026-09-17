@@ -153,6 +153,14 @@
       "status": "portable",
       "source": "local-installed/resume-parser",
       "path": "skills/resume-parser"
+    },
+    {
+      "name": "knowledge-document-search",
+      "display_name": "Knowledge Document Search",
+      "category": "knowledge-management",
+      "status": "portable",
+      "source": "local",
+      "path": "skills/knowledge-document-search"
     }
   ]
 }
