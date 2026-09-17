@@ -21,8 +21,36 @@
 | `daily-automation-report` | refactored | 自动化日报生成和数据一致性校验 |
 | `weekly-automation-report` | refactored | 自动化周报、趋势和风险汇总 |
 | `record-exporter` | refactored | 结构化记录的分组导出和只读归档 |
+| `github-project-memory` | portable | 扫描 GitHub 项目与 SKILL.md，并保存可查询的本地记忆 |
 
 完整清单见 [`manifest.json`](manifest.json)。
+
+## GitHub 项目记忆
+
+`github-project-memory` 用于把指定 GitHub 账号的仓库和 `SKILL.md` 清单保存为本地索引，后续查询优先读取索引，不必每次重新扫描。它只保存仓库/Skill 元数据，不保存 Token、Cookie、私有源码或仓库完整内容。
+
+首次使用时，建议先在本机完成登录：
+
+```powershell
+gh auth login
+python .\skills\github-project-memory\scripts\github_project_memory.py auth
+```
+
+也可以使用环境变量 `GITHUB_TOKEN` 或 `GH_TOKEN`；不要把 Token 粘贴到聊天中。扫描公开仓库不强制登录，扫描 private 或全部仓库需要已认证账号。
+
+```powershell
+# 扫描公开仓库
+python .\skills\github-project-memory\scripts\github_project_memory.py scan --owner lbql-yhl --scope public
+
+# 扫描当前已登录账号的公开和私有仓库
+python .\skills\github-project-memory\scripts\github_project_memory.py scan --owner https://github.com/lbql-yhl --scope all
+
+# 从本地记忆快速列出或查询
+python .\skills\github-project-memory\scripts\github_project_memory.py list
+python .\skills\github-project-memory\scripts\github_project_memory.py find game-ui
+```
+
+默认记忆文件是 `~/.codex/memory/github-projects.json`，可通过 `GITHUB_PROJECT_MEMORY_PATH` 或 `--memory-path` 修改。
 
 ## 一键安装
 

@@ -4,7 +4,10 @@
   "generated_at": "2026-09-17",
   "install": {
     "default_target": "${CODEX_HOME}/skills",
-    "supports": ["codex", "opencode-compatible-layout"]
+    "supports": [
+      "codex",
+      "opencode-compatible-layout"
+    ]
   },
   "skills": [
     {
@@ -78,6 +81,14 @@
       "status": "refactored",
       "source": "zhineng-zhaopin-jiqiren/skills/zhipin-desktop-archive-export",
       "path": "skills/record-exporter"
+    },
+    {
+      "name": "github-project-memory",
+      "display_name": "GitHub Project Memory",
+      "category": "workflow-logic",
+      "status": "portable",
+      "source": "local",
+      "path": "skills/github-project-memory"
     }
   ]
 }
