@@ -22,6 +22,13 @@
 | `weekly-automation-report` | refactored | 自动化周报、趋势和风险汇总 |
 | `record-exporter` | refactored | 结构化记录的分组导出和只读归档 |
 | `github-project-memory` | portable | 扫描 GitHub 项目与 SKILL.md，并保存可查询的本地记忆 |
+| `frontend-design` | portable | 有辨识度的前端视觉方向、排版、布局和设计方案 |
+| `tailwind-design-system` | portable | Tailwind CSS v4 设计令牌、组件变体和响应式设计系统 |
+| `web-accessibility` | portable | 原生语义、键盘焦点、表单、组件交互和可验证的无障碍工作流 |
+| `web-design-guidelines` | portable | Web 界面设计规范、可用性和 UX 审查 |
+| `stock-strategy-backtester` | portable | 从 OHLCV CSV 回测 SMA、RSI、突破等策略并输出指标和交易记录 |
+| `interview-designer` | portable | 基于证据的简历分析、结构化面试和未来情境模拟 |
+| `resume-parser` | portable | PDF、Word、图片简历文本提取、结构化解析和 JD 匹配 |
 | `finance-quant-backtesting` | personal | 个人量化数据、策略回测、因子分析和风险评估 |
 
 完整清单见 [`manifest.json`](manifest.json)。
@@ -52,6 +59,18 @@ python .\skills\github-project-memory\scripts\github_project_memory.py find game
 ```
 
 默认记忆文件是 `~/.codex/memory/github-projects.json`，可通过 `GITHUB_PROJECT_MEMORY_PATH` 或 `--memory-path` 修改。
+
+## 本轮复核与新增
+
+本轮同时检查了本地已安装 Skills、当前 `codex-skills` 远程仓库，以及 GitHub 账号 `lbql-yhl` 下的其他项目。新增到本仓库的是不依赖特定账号、浏览器会话、数据库或 macOS 虚拟机的通用能力：
+
+- 前端设计、Tailwind 设计系统和 Web 无障碍审查；
+- CSV/ OHLCV 股票策略回测；
+- 证据化面试设计和本地简历解析。
+
+BOSS/Zhipin、Feishu、SQLite、UTM/macOS、Notion 和 Apple 账号相关 Skills 暂未直接上传，因为它们依赖项目专用环境或凭据；其中已有价值的判断逻辑会继续以 `refactored` Skill 形式整理。
+
+`resume-parser` 的 PDF、Word 和图片解析脚本需要额外安装依赖，见 `skills/resume-parser/requirements.txt`；它不会把简历数据上传到仓库。
 
 ## 一键安装
 

@@ -97,6 +97,62 @@
       "status": "personal",
       "source": "local",
       "path": "skills/finance-quant-backtesting"
+    },
+    {
+      "name": "frontend-design",
+      "display_name": "Frontend Design",
+      "category": "frontend-design",
+      "status": "portable",
+      "source": "local-installed/frontend-design",
+      "path": "skills/frontend-design"
+    },
+    {
+      "name": "tailwind-design-system",
+      "display_name": "Tailwind Design System",
+      "category": "frontend-design",
+      "status": "portable",
+      "source": "local-installed/tailwind-design-system",
+      "path": "skills/tailwind-design-system"
+    },
+    {
+      "name": "web-accessibility",
+      "display_name": "Web Accessibility",
+      "category": "frontend-design",
+      "status": "portable",
+      "source": "local-installed/web-accessibility",
+      "path": "skills/web-accessibility"
+    },
+    {
+      "name": "web-design-guidelines",
+      "display_name": "Web Design Guidelines",
+      "category": "frontend-design",
+      "status": "portable",
+      "source": "local-installed/web-design-guidelines",
+      "path": "skills/web-design-guidelines"
+    },
+    {
+      "name": "stock-strategy-backtester",
+      "display_name": "Stock Strategy Backtester",
+      "category": "finance-research",
+      "status": "portable",
+      "source": "local-installed/stock-strategy-backtester",
+      "path": "skills/stock-strategy-backtester"
+    },
+    {
+      "name": "interview-designer",
+      "display_name": "Interview Designer",
+      "category": "recruiting",
+      "status": "portable",
+      "source": "local-installed/interview-designer",
+      "path": "skills/interview-designer"
+    },
+    {
+      "name": "resume-parser",
+      "display_name": "Resume Parser",
+      "category": "recruiting",
+      "status": "portable",
+      "source": "local-installed/resume-parser",
+      "path": "skills/resume-parser"
     }
   ]
 }
