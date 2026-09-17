@@ -1,0 +1,22 @@
+# Local/runtime files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.codex/
+.opencode/
+
+# Test/install scratch directories
+test-skills/
+.dist/
+
+# Temporary audit artifacts
+_github_skill_scan/
+skills-inventory.json
+

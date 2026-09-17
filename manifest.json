@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "repository": "lbql-yhl/codex-skills",
+  "generated_at": "2026-09-17",
+  "install": {
+    "default_target": "${CODEX_HOME}/skills",
+    "supports": ["codex", "opencode-compatible-layout"]
+  },
+  "skills": [
+    {
+      "name": "dialogue-systems",
+      "display_name": "Dialogue Systems",
+      "category": "game-development",
+      "status": "portable",
+      "source": "open-world-game-1.0/.opencode/skills/dialogue-systems",
+      "path": "skills/dialogue-systems"
+    },
+    {
+      "name": "game-feel",
+      "display_name": "Game Feel",
+      "category": "game-development",
+      "status": "portable",
+      "source": "open-world-game-1.0/.opencode/skills/game-feel",
+      "path": "skills/game-feel"
+    },
+    {
+      "name": "game-ui-design",
+      "display_name": "Game UI Design",
+      "category": "game-development",
+      "status": "portable",
+      "source": "open-world-game-1.0/.opencode/skills/game-ui-design",
+      "path": "skills/game-ui-design"
+    },
+    {
+      "name": "game-ui-ux",
+      "display_name": "Game UI/UX",
+      "category": "game-development",
+      "status": "portable",
+      "source": "open-world-game-1.0/.opencode/skills/game-ui-ux",
+      "path": "skills/game-ui-ux"
+    },
+    {
+      "name": "visual-novel",
+      "display_name": "Visual Novel",
+      "category": "game-development",
+      "status": "portable",
+      "source": "open-world-game-1.0/.opencode/skills/visual-novel",
+      "path": "skills/visual-novel"
+    },
+    {
+      "name": "jd-hard-requirement-matcher",
+      "display_name": "JD Hard Requirement Matcher",
+      "category": "workflow-logic",
+      "status": "refactored",
+      "source": "zhineng-zhaopin-jiqiren/skills/zhipin-archive-jd-resume-match",
+      "path": "skills/jd-hard-requirement-matcher"
+    },
+    {
+      "name": "daily-automation-report",
+      "display_name": "Daily Automation Report",
+      "category": "reporting",
+      "status": "refactored",
+      "source": "zhineng-zhaopin-jiqiren/skills/zhipin-scheduled-forward-report",
+      "path": "skills/daily-automation-report"
+    },
+    {
+      "name": "weekly-automation-report",
+      "display_name": "Weekly Automation Report",
+      "category": "reporting",
+      "status": "refactored",
+      "source": "zhineng-zhaopin-jiqiren/skills/zhipin-weekly-work-report",
+      "path": "skills/weekly-automation-report"
+    },
+    {
+      "name": "record-exporter",
+      "display_name": "Record Exporter",
+      "category": "workflow-logic",
+      "status": "refactored",
+      "source": "zhineng-zhaopin-jiqiren/skills/zhipin-desktop-archive-export",
+      "path": "skills/record-exporter"
+    }
+  ]
+}
